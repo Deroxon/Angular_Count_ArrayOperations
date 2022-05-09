@@ -8,6 +8,7 @@ import { FirstComponent } from './components/first.component';
 import { SecondComponent } from './components/second.component';
 import { ThirdComponent } from './components/third.component';
 import { Service } from './service';
+import { RandColorDirective } from './shared/direcCheck';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -17,6 +18,7 @@ import { Service } from './service';
     FirstComponent,
     SecondComponent,
     ThirdComponent,
+    RandColorDirective,
   ],
   providers: [Service],
   bootstrap: [AppComponent],

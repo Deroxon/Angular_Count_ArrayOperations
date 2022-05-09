@@ -5,7 +5,9 @@
 <h1>DogList:</h1>
 
 <ul *ngFor="let dog of dogList">
-  <li>{{ dog.name }}</li>
+  <li randColor>
+    <b>{{ dog.name }} </b>
+  </li>
   <li>{{ dog.age }}</li>
   <li>{{ dog.adopted ? 'Dog is adopted' : 'Dog is free to adopt' }}</li>
 </ul>
