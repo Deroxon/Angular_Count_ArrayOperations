@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<h1>Count: {{ count }}</h1>
+<h1>DogList:</h1>
+
+<ul *ngFor="let dog of dogList">
+  <li>{{ dog.name }}</li>
+  <li>{{ dog.age }}</li>
+  <li>{{ dog.adopted ? 'Dog is adopted' : 'Dog is free to adopt' }}</li>
+</ul>
+
+<first-component> </first-component>
+<second-component> </second-component>
+<third-component></third-component>

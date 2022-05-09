@@ -1,0 +1,20 @@
+<h1>This is third Component</h1>
+{{ counter }} <br />
+
+<button (click)="this.add()">Add Count</button>
+<br /><br />
+
+<input type="text" placeholder="name" [(ngModel)]="name" />
+
+<input type="number" placeholder="age" [(ngModel)]="age" />
+
+<input type="checkbox" [(ngModel)]="adopted" /> Adopted?
+
+<button (click)="this.addDog()">Add Dog</button>
+
+<hr />
+
+<hr />
+<h2>Delete dog</h2>
+<input type="text" placeholder="name dog to delete" [(ngModel)]="dogDelete" />
+<button (click)="this.deleteDog()">Delete dog</button>
